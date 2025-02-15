@@ -33,10 +33,6 @@
   font-family: "Poppins", sans-serif;
 }
 
-img {
-  aspect-ratio: 4 / 4;
-}
-
 /* base set up */
 html {
   font-size: 62.5%;
@@ -300,6 +296,10 @@ section:nth-child(odd) {
   transition: 0.4s ease;
 }
 
+.portfolio-img {
+  aspect-ratio: 4 / 4;
+}
+
 .portfolio-box:hover img {
   transform: scale(1.1);
 }
@@ -411,6 +411,7 @@ section:nth-child(odd) {
 
 .footer-iconTop a:hover {
   box-shadow: 0 0 2rem var(--icon-color);
+  border: .2rem solid var(--icon-color);
 }
 
 .footer-iconTop a i {
